@@ -1,0 +1,65 @@
+/* RESETS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+img {
+    max-width: 100%; /* Make images conform to parent container. */
+}
+
+a {
+    text-decoration: none;
+}
+
+/* GLOBAL CLASSES */
+.row {
+    display: flex;
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#headerName {
+    width: 30%;
+    padding: 20px;
+    margin-left: 30px;
+    background-color: teal;
+    float: left;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#headerNav {
+    float: left;
+    width: 70%;
+}
+
+/* Home Page (index.html) */
+
+.aboutMe {
+    clear: both;
+    width: 70%;
+    float: left;
+    border: 1px solid grey;
+    padding: 30px 20px;
+}
+
+#profilePhoto {
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+
+.connect {
+    width: 30%;
+    float: right;
+    padding: 30px 20px;
+    border: 1px solid grey;
+}
