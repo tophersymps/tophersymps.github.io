@@ -18,30 +18,37 @@ a {
 }
 
 /* GLOBAL CLASSES */
-.row {
-    display: flex;
+body {
+    background-image: url("../images/grey_background.png"); 
 }
-.container {
-    max-width: 960px;
+
+header {
+    width: 100%;
+    background-color: white;
+}
+
+#header {
+    width: 960px;
     margin: 0 auto;
 }
 
-#headerName {
-    width: 30%;
-    padding: 20px;
-    margin-left: 30px;
-    background-color: teal;
+h1 {
     float: left;
-    font-family: sans-serif;
-    text-align: center;
+    padding: 20px;
+    background-color: teal;
 }
 
-#headerNav {
-    float: left;
-    width: 70%;
+nav {
+    float: right;
+    padding: 20px;
 }
 
 /* Home Page (index.html) */
+.container {
+    width: 960px;
+    margin: 0 auto;
+    /* background-image: url("../images/grey_background.png"); */
+}
 
 .aboutMe {
     clear: both;
@@ -49,6 +56,7 @@ a {
     float: left;
     border: 1px solid grey;
     padding: 30px 20px;
+    margin-top: 30px;
 }
 
 #profilePhoto {
@@ -58,8 +66,9 @@ a {
 }
 
 .connect {
-    width: 30%;
+    /* width: 30%; */
     float: right;
     padding: 30px 20px;
+    margin: 30px 0px 0px 20px;
     border: 1px solid grey;
 }
