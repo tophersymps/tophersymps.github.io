@@ -64,6 +64,19 @@ nav {
     margin-top: 10px;
 }
 
+footer {
+    clear: both;
+    background-color: grey;
+    border-top: 4px solid teal;
+    height: 80px;
+}
+
+footer p {
+    color: white;
+    font-size: 10px;
+    text-align: center;
+}
+
 /* Home Page (index.html) */
 .container {
     width: 960px;
@@ -115,3 +128,4 @@ nav {
     width: 40px;
     margin: 5px;
 }
+
