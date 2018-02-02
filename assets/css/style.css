@@ -39,6 +39,10 @@ a {
     color: grey;
 }
 
+a:hover {
+    color: teal;
+}
+
 nav a:not(:last-child) {
     border-right: 1px solid grey;
     margin-right: 20px;
@@ -92,7 +96,6 @@ footer p {
     border: 1px solid grey;
     background-color: rgba(255, 255, 255, .8);
     /* background-color: white; */
-    /* filter: opacity(80%); */
 }
 
 .connect hr {
@@ -101,7 +104,7 @@ footer p {
 }
 .connect img {
     width: 40px;
-    margin: 5px;
+    margin: 3%;
 }
 
 /* Home Page (index.html) */
@@ -109,7 +112,6 @@ footer p {
     width: 960px;
     min-height: 100%;
     margin: 0 auto;
-    /* background-image: url("../images/grey_background.png"); */
 }
 
 .leftBox {
