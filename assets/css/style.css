@@ -18,6 +18,7 @@ img {
 /* GLOBAL CLASSES */
 body {
     background-image: url("../images/grey_background.png");
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .header {
@@ -51,16 +52,12 @@ h1 {
     background-color: teal;
     color: white;
     font-weight: 200;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
 }
 
-h2 {
+h2, h3 {
     color: teal;
-
-}
-
-h3 {
-    color: teal
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
 }
 
 nav {
