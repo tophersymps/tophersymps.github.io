@@ -138,8 +138,6 @@ footer p {
     margin-right: 20px;
 }
 
-
-
 /* Contact Page (contact.html) */
 form {
     margin: 0 auto;
@@ -173,4 +171,28 @@ button {
     /* font-weight: bold; */
     background-color: teal;
     color: white;
+}
+
+/* Portfolio Page (portfolio.html) */
+.project {
+    height: 200px;
+    width: 275px;
+    float: left;
+    background-color: yellow;
+    margin: 4% 2%;
+    position: relative;
+}
+
+.projectTitle {
+    font-size: 1.5em;
+    position: absolute;
+    background-color: rgba(0, 128, 128, .8);
+    width: 100%;
+    bottom: 30px;
+    padding: 20px 0px;
+}
+
+p.projectTitle {
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
 }
