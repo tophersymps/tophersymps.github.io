@@ -140,6 +140,13 @@ footer p {
     margin-right: 20px;
 }
 
+#myWorld {
+  height: 200px;
+  width: 200px;
+  float: right;
+  margin-left: 20px;
+}
+
 /* Contact Page (contact.html) */
 form {
     margin: 0 auto;
