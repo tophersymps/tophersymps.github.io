@@ -33,7 +33,7 @@ class LandingPage extends React.Component {
         <Header
           color="transparent"
           routes={dashboardRoutes}
-          brand="Christopher Sympson"
+          brand="Hello World!"
           rightLinks={<HeaderLinks />}
           fixed
           changeColorOnScroll={{
@@ -59,7 +59,7 @@ class LandingPage extends React.Component {
                 />
               </GridItem>
               <GridItem xs={12} sm={12} md={6}>
-                <h1 className={classes.title}>Hello World!</h1>
+                <h1 className={classes.title}>Christopher Sympson</h1>
                 <h4>
                   Web Developer | Photographer | Business Consultant
                 </h4>
@@ -69,7 +69,7 @@ class LandingPage extends React.Component {
         </Parallax>
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
-            {/* <ProductSection /> */}
+            <ProductSection />
             {/* <TeamSection /> */}
             {/* <WorkSection /> */}
           </div>
