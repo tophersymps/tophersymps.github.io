@@ -23,7 +23,12 @@ class ProductSection extends React.Component {
           <GridItem xs={12} sm={12} md={8}>
             <h2 className={classes.title}>Check out my latest work!</h2>
             <h5 className={classes.description}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda voluptates quidem molestiae minus magnam cupiditate laboriosam distinctio dignissimos, voluptatum possimus consequatur necessitatibus alias dolorum pariatur optio voluptas amet nobis quisquam vel nulla incidunt soluta commodi? Doloremque in quas non voluptates.
+            My name is Christopher Sympson. I often go by Chris, but in many situations there are multiple Chris's so I'll go by Topher. This past year I got married to my beautiful wife, Ysabel and am eager to see where our future takes us!</h5>
+            <h5 className={classes.description}>
+              I have completed the University of Richmond's intensive Coding Boot Camp program! Now I'm here and super excited to see what I will become capable of! The sky's the limit!
+            </h5>
+            <h5>
+              I will be updating my portfolio site here for you so stay tuned!
             </h5>
           </GridItem>
         </GridContainer>
