@@ -32,7 +32,7 @@ class ProductSection extends React.Component {
             </h5>
           </GridItem>
         </GridContainer>
-        <div>
+        {/* <div>
           <GridContainer>
             <GridItem xs={12} sm={12} md={3}>
               <InfoArea
@@ -71,7 +71,7 @@ class ProductSection extends React.Component {
               />
             </GridItem>
           </GridContainer>
-        </div>
+        </div> */}
       </div>
     );
   }
